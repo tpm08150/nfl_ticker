@@ -6,11 +6,11 @@
 #include <Fonts/TomThumb.h>
 
 // ===== WiFi Configuration =====
-const char* ssid = "a wifi has no name (deco)";
-const char* password = "5736946039";
+const char* ssid = "";
+const char* password = "";
 
 // ===== Raspberry Pi/Mac Server =====
-const char* piServerUrl = "http://192.168.68.50:5001/nfl/scores";
+const char* piServerUrl = "http://192.168.68.xxx:5001/nfl/scores";
 
 // ===== LED Matrix Configuration =====
 #define PANEL_RES_X 64
